@@ -1,0 +1,212 @@
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: whitesmoke;
+}
+.webpage{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+.titlebar{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(1, 180, 1);
+    margin: 0px;
+    align-items: center;
+}
+@font-face {
+    font-family: office;
+    src: url(BlueFonteSans-w1w8x.ttf);
+}
+.title{
+    color: white;
+    display: flex;
+    font-size: 40px;
+    font-family: office;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    /* justify-content: center; */
+
+
+}
+.title1{
+    color: white;
+    display: flex;
+    font-size: 20px;
+    font-family: office;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* justify-content: center; */
+
+
+}
+.titleleft{
+    width: 50%;
+    height: 100%;
+}
+.titleright{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: right;
+    margin-right: 30px;
+}
+.logo{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    margin-left: 10px px;
+}
+.opsi{
+    display: flex;
+    height: 60px;
+    width: 90px;
+    align-items: center;
+    
+}
+.lampung{
+    display: flex;
+    height: 45px;
+    width: 40px;
+    align-items: center;
+    margin: 10px;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(1, 180, 1);
+    margin: 0px;
+}
+.navbar1{
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+.navbar2{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: right;
+
+}
+.button{
+    margin: 0px;
+    width: 120px;
+    height: 100%;
+    background-color: rgb(1, 180, 1);
+    border-color: rgb(1, 180, 1);
+    color: white;
+    box-shadow: 1px white ;
+    border-style: solid;
+}
+.button1{
+    margin: 0px;
+    width: 80px;
+    height: 100%;
+    background-color: rgb(1, 180, 1);
+    border-color: rgb(1, 180, 1);
+    color: white;
+    box-shadow: 1px white ;
+    border-style: solid;
+}
+.button2{
+    margin: 0px;
+    width: 100px;
+    height: 100%;
+    background-color: rgb(1, 180, 1);
+    border-color: rgb(1, 180, 1);
+    color: white;
+    box-shadow: 1px white ;
+    border-style: solid;
+}
+.button:hover{
+    background-color: rgb(0, 133, 0);
+}
+.button1:hover{
+    background-color: rgb(0, 133, 0);
+}
+.button2:hover{
+    background-color: rgb(0, 133, 0);
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.left{
+    width: 15%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.center{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+.right{
+    width: 15%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+@font-face {
+    font-family: teks;
+    src: url(OfficeSquare-Ayvg.ttf);
+}
+.ptitle{
+    font-size: 40px;
+    color: black;
+    font-family: teks;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.subtitle{
+    font-size: 20px;
+    color: black;
+    font-family: teks;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.subsubtitle{
+    font-size: 25px;
+    color: black;
+    font-family: teks;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.paragraf{
+    font-size: 17px;
+    color: black;
+    font-family: teks;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 40px;
+    text-align: justify;
+}
+.paragraf1{
+    font-size: 17px;
+    color: blue;
+    font-family: teks;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 40px;
+    text-align: justify;
+}
+.embed{
+    height: 100%;
+    width: 100%;
+}
